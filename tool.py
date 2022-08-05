@@ -4,10 +4,103 @@
 # @Site    : 
 # @File    : tool.py
 # @Software: PyCharm 
-# @Comment : 
-
+# @Comment :
+import random
 import smtplib
 from email.mime.text import MIMEText
+
+
+#获取到英语汉语的列表后
+#返回错题&输入的列表
+def reWrong_Input(list):
+    wrongList = []  # 错误集合
+    inputList = []  # 输入集合 可能会输入会与原答案差标点符号 亦作对比
+    enList = list[0]
+    chList = list[1]
+    if len(enList) == len(chList):
+        print('本次测试共有：', len(enList), '个单词，每个单词最多错误三次\n下面开始测试：')
+        for i in range(len(enList)):
+            print('\n====================================')
+            print('第', i + 1, '/', len(enList), '个')
+            # print(enList[i])
+            # print(chList[i])
+            print('汉语：', chList[i])
+            print('请输入正确的拼写：')
+            t = 1  # 判断单词输入是否错误 继续进行输入
+            num = 0  # 判断错误次数
+            while t:
+                if num == 3:
+                    print('已错误三次，正确拼写为：\n', enList[i])
+                    wrongWord = '英语：' + enList[i] + '-汉语：' + chList[i]
+                    wrongList.append(wrongWord)
+                    break
+                inputEn = input()
+                if remove(enList[i]) == remove(inputEn):
+                    t = 0
+                    print('输入正确，请继续....\n')
+                else:
+                    t = 1
+                    num = num + 1
+                    if num < 3:
+                        print("已错", num, "次，请继续输入正确的拼写：")
+                    if num == 3:
+                        print("已错", num, "次，请看正确答案。")
+                        # 把输入的和正确的存入inputList
+                        # 可能会输入会与原答案差标点符号亦作对比
+                        word = '英语：' + enList[i] + '-汉语：' + chList[i]
+                        word = '输入的：' + inputEn + '</br>正确的：' + word
+                        inputList.append(word)  # 这是第三次已经输入 所有直接加入列表
+
+    print('\n一共错了', len(wrongList), '个。\n可能会有误差，最终请看邮箱。\n')
+    print('错误列表：', wrongList)
+    print('输入的错误列表及正确：', inputList)
+    list.append(wrongList)
+    list.append(inputList)
+    return list
+
+def getReviseList(out_of_order,filePath):
+    data = [] #读取出来的存入data
+    list=[] #分解的英语和汉语存入list
+    file = open(filePath, 'r', encoding='UTF-8')  # 打开文件
+    file_data = file.readlines()  # 读取所有行
+    for row in file_data:
+        data.append(row)
+    #==================没看懂,但可以用==========================================
+    data = [x.strip() for x in data if x.strip() != '']
+    # print('newData:',data)
+    # for x in data:
+    #     if x.strip() != '':
+    #         x = x.strip()
+    #         b = [x]
+    #         print(b)
+    #==============================================================
+
+    #data是每行的列表
+    #进行随机抽取的话
+    # python避免随机元素重复可以使用random模块的sample()函数，
+    # 它返回一个新列表，新列表存放随机不重复的元素。
+    if out_of_order ==1:
+        print('\n已开启无序模式.....')
+        data=random.sample(data,len(data))
+    #===========================================
+
+
+    enList = []
+    chList = []
+    for i in range(len(data)):
+        en = data[i].split('-')[0]
+        ch = data[i].split('-')[1]
+        enList.append(en)
+        chList.append(ch)
+    #print('英语：',enList)
+    #print('汉语：',chList)
+    if len(enList) == len(chList):
+        list.append(enList)
+        list.append(chList)
+    else:
+        print('长度不相等！')
+
+    return list
 
 
 #获取错题&输入 列表 返回需要发送邮件的信息
@@ -29,8 +122,8 @@ def reMes(fileName,list):
 
 
 def getList(out_of_order,filePath):
-    data = []
-    list=[]
+    data = [] #读取出来的存入data
+    list=[] #分解的英语和汉语存入list
     file = open(filePath, 'r', encoding='gbk')  # 打开文件
     file_data = file.readlines()  # 读取所有行
     for row in file_data:
@@ -138,51 +231,8 @@ def remove(string):
 
 #无序模式
 def getWrong_Input_outOrder(out_of_order,filePath):#无序模式
-    wrongList = []  # 错误集合
-    inputList = []  # 输入集合 可能会输入会与原答案差标点符号 亦作对比
     list = getList(out_of_order, filePath)
-    enList = list[0]
-    chList = list[1]
-    if len(enList) == len(chList):
-        print('本次测试共有：', len(enList), '个单词，每个单词最多错误三次\n下面开始测试：')
-        for i in range(len(enList)):
-            print('\n====================================')
-            print('第', i + 1, '/', len(enList), '个')
-            # print(enList[i])
-            # print(chList[i])
-            print('汉语：', chList[i])
-            print('请输入正确的拼写：')
-            t = 1  # 判断单词输入是否错误 继续进行输入
-            num = 0  # 判断错误次数
-            while t:
-                if num == 3:
-                    print('已错误三次，正确拼写为：\n', enList[i])
-                    wrongWord = '英语：' + enList[i] + '-汉语：' + chList[i]
-                    wrongList.append(wrongWord)
-                    break
-                inputEn = input()
-                if remove(enList[i]) == remove(inputEn):
-                    t = 0
-                    print('输入正确，请继续....\n')
-                else:
-                    t = 1
-                    num = num + 1
-                    if num < 3:
-                        print("已错", num, "次，请继续输入正确的拼写：")
-                    if num == 3:
-                        print("已错", num, "次，请看正确答案。")
-                        # 把输入的和正确的存入inputList
-                        # 可能会输入会与原答案差标点符号亦作对比
-                        word = '英语：' + enList[i] + '-汉语：' + chList[i]
-                        word = '输入的：' + inputEn + '</br>正确的：' + word
-                        inputList.append(word)  # 这是第三次已经输入 所有直接加入列表
-
-    print('\n一共错了', len(wrongList), '个。\n可能会有误差，最终请看邮箱。\n')
-    print('错误列表：', wrongList)
-    print('输入的错误列表及正确：', inputList)
-
-    list.append(wrongList)
-    list.append(inputList)
+    list = reWrong_Input(list)
     return list
 
 #倒序模式

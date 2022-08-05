@@ -64,4 +64,21 @@ for value in range(lens, -1, -1):
     print(lists[value])
 ```
 
+#### 一招搞定python 去除列表中的\n 和空字符
+
+```python
+s=['\n', 'magnet:?xt=urn:btih:060C0CE5CFAE29A48102280B88943880689859FC\n']
+上面是目标代码，一个列表，中间有\n，我们现在将其去掉
+
+s=[x.strip() for x in magnet_link]
+运行会发现结果为
+
+s=['', 'magnet:?xt=urn:btih:060C0CE5CFAE29A48102280B88943880689859FC']
+离我们的要求越来越近了
+
+s=[x.strip() for x in magnet_link if x.strip()!='']
+好了，结果出来了
+
+s=['magnet:?xt=urn:btih:060C0CE5CFAE29A48102280B88943880689859FC']
+```
 
