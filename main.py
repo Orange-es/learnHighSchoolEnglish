@@ -5,12 +5,21 @@
 # @File    : main.py
 # @Software: PyCharm 
 # @Comment :
+
+import sys
+# 把项目路径加入python搜索路径 可以在cmd运行
+sys.path.append('D:\Software\PyCharm\pythonProject\\test01')
+
+
+
 from summer_2022.wordDictation.tool import getWrong_Input_outOrder, getWrong_Input_countBack, sendMail, reMes, \
     getReviseList, reWrong_Input
 
-if __name__ == '__main__':
+
+
+def run():
     # 0关闭，1开启
-    revise = 1#复习模式
+    revise = 0#复习模式
     #倒序 无序开一个就可以
     countBack = 0 #倒数
     out_of_order = 0 #无序
@@ -35,12 +44,15 @@ if __name__ == '__main__':
         print('==========已进入复习模式=====================')
         # 返回的list包含 0：英语和1：汉语的列表
         # 参数1：是否无序 参数2：文件路径
-        reviseList = getReviseList(0,filePath)
+        reviseList = getReviseList(1,filePath)
         list = reWrong_Input(reviseList)
 
     #给错题&输入的列表 返回做好格式的信息
     p = reMes(fileName,list)
     #根据信息发邮件
     sendMail(fileName,p)
+
+if __name__ == '__main__':
+    run()
     input("输入回车键结束")
 
