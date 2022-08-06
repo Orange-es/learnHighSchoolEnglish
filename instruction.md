@@ -82,3 +82,15 @@ s=[x.strip() for x in magnet_link if x.strip()!='']
 s=['magnet:?xt=urn:btih:060C0CE5CFAE29A48102280B88943880689859FC']
 ```
 
+#### python分割字符串只分割一次
+
+```python
+strdata = "addsf：dfsf：地方的地方：123"
+#方法一：
+result1 = strdata.split('：',1)
+ 
+#方法二：
+a,*b = strdata.split('：')
+result2 = ''.join(b)
+```
+
