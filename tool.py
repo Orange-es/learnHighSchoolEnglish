@@ -9,6 +9,52 @@ import random
 import smtplib
 from email.mime.text import MIMEText
 
+#用于必修二及以上的解析
+def getNewBookL(out_of_order, filePath):
+    data = []  # 读取出来的存入data
+    list = []  # 分解的英语和汉语存入list
+    file = open(filePath, 'r', encoding='UTF-8')  # 打开文件
+    file_data = file.readlines()  # 读取所有行
+    for row in file_data:
+        data.append(row)
+
+    # data是每行的列表
+    # 进行随机抽取的话
+    # python避免随机元素重复可以使用random模块的sample()函数，
+    # 它返回一个新列表，新列表存放随机不重复的元素。
+    if out_of_order == 1:
+        print('\n已开启无序模式.....')
+        data = random.sample(data, len(data))
+    # ===========================================
+
+    enList = []
+    chList = []
+    for i in range(len(data)):
+        # num = data[i].split('.',1)[0]#编号
+        # print('编号：',num)
+        try:
+            noNum = data[i].split('.', 1)[1].lstrip()  # 去掉编号并取除头部空格
+            # print('去掉编号:',noNum)
+            # print('去掉编号并取除头部空格:',noNum.lstrip())
+            en = noNum.split(' ', 1)[0]  # 英文
+            # print('en:',en)
+            ch = noNum.split(' ', 1)[1].strip()  # 汉语
+            # print('ch:',ch)
+            enList.append(en)
+            chList.append(ch)
+        except:
+            print('出错：',data[i])
+            pass
+
+    print('英语：', enList)
+    print('汉语：', chList)
+    if len(enList) == len(chList):
+        list.append(enList)
+        list.append(chList)
+    else:
+        print('长度不相等！')
+    return list
+
 
 #获取到英语汉语的列表后
 #返回错题&输入的列表
