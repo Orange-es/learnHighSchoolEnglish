@@ -36,18 +36,18 @@ def getNewBookL(out_of_order, filePath):
             noNum = data[i].split('.', 1)[1].lstrip()  # 去掉编号并取除头部空格
             # print('去掉编号:',noNum)
             # print('去掉编号并取除头部空格:',noNum.lstrip())
-            en = noNum.split(' ', 1)[0]  # 英文
+            en = noNum.split('  ', 1)[0]  # 英文
             # print('en:',en)
-            ch = noNum.split(' ', 1)[1].strip()  # 汉语
+            ch = noNum.split('  ', 1)[1].strip()  # 汉语
             # print('ch:',ch)
             enList.append(en)
             chList.append(ch)
         except:
-            print('出错：',data[i])
+            print('文件出错：',data[i],'\n')
             pass
 
-    print('英语：', enList)
-    print('汉语：', chList)
+    #print('英语：', enList)
+    #print('汉语：', chList)
     if len(enList) == len(chList):
         list.append(enList)
         list.append(chList)
