@@ -1,0 +1,63 @@
+1.     blog               n.    博客vt.写博客
+2.     blog post               博文;博客帖子
+3.     blogger          n.    博客作者;博主
+4.     engine           n.    引撃;发动机;火车头
+5.     search engine        (互联网上的)搜索引擎
+6.     chat               vi.   聊天;闲聊
+7.      stream           vt.   流播(不用下载直接在互联网上播放音视频);流出vi.流动 n.小河;溪流
+8.      identity         n.    身份;个性
+9.      identity card         身份证
+10.     convenient     adj.  方便的;近便的
+11.     cash               n.    现金;金钱
+12.     update           vi.   更新;向…提供最新信息n.更新;最新消息
+13.     database        n.    数据库;资料库
+14.     software        n.    软件
+15.     network         n.    (互联)网络;网状系统;人际网vt将…连接成网络;联播 vi.建立工作关系
+16.     stuck              adj   卡住;陷(入);因(于)
+17.     keep sb company  陪伴某人
+18.     surf               vt.＆vi.浏览;冲浪
+19.     benefit           n.    益处vt.使受益 vi得益于
+20.     distance         n.    距离
+21.     inspire           vt.   鼓舞;激励;启发思考
+22.     now that               既然;由于
+23.     access            n.    通道;(使用、查阅、接近或面见的)机会vt.进入;使用;获取
+24.     charity          n.    慈善;慈善机构(或组织
+25.     go through           经历;度过;通读
+26.     tough            adj.  艰难的;严厉
+27.     province        n.    省
+28.     conference     n.    会议;研讨会;正式会谈
+29.     resident         n.    居民;(美国的)住院医生adj.(在某地)居住的
+30.     plus               conj. 而且;此外n.加号;优势prep.加;另加
+31.     function        n.    功能;作用;机能vi.起作用;正常工作;运转
+32.     battery          n.    电池
+33.     confirm         vt.   确认;使确信
+34.     Wi-Fi            n.    无线保真(用无线电波而非网线在计算机网络传输数据的系统)
+35.     press              vt.   按，压;散促
+36.     button           n.    按钮;纽扣
+37.     file                n.    文件;文件夹;档案
+38.     in shape                状况良好
+39.     keep track of        掌握…的最新消息;了解…的动态
+40.     discount        n.    折扣vt.打折
+41.     account         n.    账户;描述
+42.     click               vt.＆vi.点击
+43.     privacy           n.    隐私;私密
+44.     theft                     n.    偷(窃);盗窃罪
+45.     rude              adj.  粗鲁的;无礼的
+46.     target            n.    目标;对象;靶子vt.把…作为攻击目标
+47.     troll               n.    发挑衅帖子的人;恶意挑衅的帖子
+48.     cyberbully      n.    网霸vt.＆vi.网络欺凌
+49.     false               adj.  假的;错误的
+50.     particular      adj.  特定的;特别的;讲究的
+51.     embarrassing  adj.  让人难堪(尴尬;害羞)的
+52.     make fun of          取笑;戏弄
+53.     upset            adj.  心烦的;苦憶的;沮丧的vt.( upset，upset)使烦恼;使生气;搅乱
+54.     guideline        n.    准则;指导原则
+55.     author           n.    作者;作家
+56.     tip                 n.    忠告;诀窍;实用的提示
+57.     familiar         adj.  熟悉;熟知
+58.     keep(... ) in mind  牢记
+59.     define            vt.   给…下定义;界定;解释
+60.     case               n.    盒;箱;情况;案件
+61.     the World Wide Web abbr WWW万维网;环球信息网
+62.     Jan Tchaman          简・夏曼尼
+63.     Birmingham          伯明翰(英国域市)

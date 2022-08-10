@@ -1,0 +1,85 @@
+1.    poster           n.    海报
+2.    illegal           adj.  不合法的;非法的
+3.    illegally         adv 不合法地;非法地
+4.    hunt             vt.＆vi.打猎;搜寻;追捕
+5.    hunter           n.    猎人
+6.    immediately  adv. 立刻
+7.    species          n.    物种
+8.    shark            n     鲨鱼
+9.    fin                n.    (鱼的)鳍
+10.     on earth                (放在疑问词之后表示强调)究竟;到底
+11.     die out                  灭亡;逐渐消失
+12.     alarming        adj.  惊人的;使人惊恐的
+13.     alarm           vt.   使惊恐;使害怕;使担心n.恐慌;警报;警报器
+14.     rate               n.    速度;(比)率vt.划分等级
+15.     rating            n.    等级;级别
+16.     extinct            adj.  已灭绝的
+17.     extinction      n.    灭绝
+18.     mass              adj.  大量的;广泛的n.大量;堆;群
+19.     habitat          n.    (动植物的)生活环境;栖息地
+20.     aware            adj.  知道;发觉;有…意识的
+21.     aware of               意识到;知道
+22.     endanger        v.     使遭受危险;危害
+23.     average          n.    平均数;平均水平adj平均的;正常的;普通的
+24.     on average            平均
+25.     prince            n.    王子;王孙;亲王
+26.     make progress       取得进步
+27.     concern         vt.   涉及;让…担忧
+28.     concerned      adj.  担心的;关切的
+29.     concerned about   对…关切的;为…担忧的
+30.     living             adj.  居住的;活的;在用的n.生活;生计
+31.     adapt            vi.   适应vt.使适应;使适合
+32.     adapt to                适应
+33.     measure        n.    指施;方法 vt.测量;度量;估量
+34.     authority      n.    官方;当权;权威
+35.     pressure        n.    压力;要求
+36.     under pressure             在压力下;承受压力
+37.     whale            n.    鲸
+38.     antelope         n.    羚;羚类动物
+39.     Tibetan antelope     藏羚羊
+40.     reserve          n.    (动植物)保护区;储藏(量)vt.预订;预留;保留
+41.     plain             n.    平原adj.简单明了的;直率的;平凡的
+42.     make out               看清;听清;分清
+43.     herd              n.    牧群;兽群
+44.     observe         vt.   观察(到);注视;遵守
+45.     beauty          n.    美;美人;美好的东西
+46.     remind          vt.   提醒;使想起
+47.     remind sb of sb/sth       使某人想起(类似的人或物)
+48.     fur                n.    毛(皮);毛皮衣服
+49.     sacred           adj.  神圣的;受尊敬的
+50.     shoot            vt.＆vi.(shot，shot)射杀;射伤;发射
+51.     profit            n.    利洞;利益
+52.     watch over            保护;照管;监督
+53.     day and night        日日夜夜;夜以继日
+54.     attack            n.vi.＆vt.攻击;抨击
+55.     effective         adj.  有效的;生效的
+56.     recover          vi.   恢复;康复找回;寻回
+57.     remove         vt.   去除;移开;脱去
+58.     intend          vi.＆vt.打算;计划;想要
+59.     threat            n.    威胁
+60.     threaten       vt.   威胁;危及
+61.     exist              vi.   存在;生存
+62.     harmony       n.    和谐;融治
+63.     goods            n.    商品;货物
+64.     creature        n.    生物;动物
+65.     deer               n.    鹿
+66.     kangaroo       n.    袋鼠
+67.     reduce           vt.   减少
+68.     due                adj.  由于;因为
+69.     due to            由于;因为
+70.     insect             n.    昆虫
+71.     net                n.    =Internet; adj.净得的;纯的
+72.     neighbourhood     n.    临近的地方;街区
+73.     binoculars       n.    双筒望远镜
+74.     bird field guide       乌类图鉴
+75.     search for             搜索;查找
+76.     dolphin         n.    海豚
+77.     Yangtze River dolphin    白鳍豚
+78.     koala              n.    树袋熊;考拉
+79.     stir                 vt.   激发;搅动
+80.     stir up                  激起
+81.     emotion         n.    感情;情感;情绪
+82.     skin               n.    皮;皮肤
+83.     unusual         adj.  特别的;不寻常的
+84.     Tibetan           adj.  西藏的;藏语的;藏族(人)的n.西藏人;藏族人;藏语
+85.     Tibet              n.    西藏

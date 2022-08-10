@@ -1,0 +1,89 @@
+1.         heritage          n.    遗产(指国家或社会长期形成的历史、传统和特色)
+2.         creatively       adv. 创造性地;有创造力地
+3.         creative         adj.  创造性的;有创造力的;有创意的
+4.         temple           n.    庙;寺
+5.         relic              n.    遗物;遗迹
+6.         mount           n.    山峰vt.爬上;骑上v.爬;登上
+7.         former           adj.  以前的;(两者中)前者的
+8.         clue               n.    线索;提示
+9.         preserve         vt.   保存;保护;维持n.保护区
+10.     promote        vt.   促进;提升;推销;晋级
+11.     cypress           n.    柏树
+12.     app                n.    应用程序;应用软件( application的缩略形式
+13.     application    n.    申请(表);用途;运用;应用(程序)
+14.     take part in           参与(某事);参加(某活动)
+15.     give way to           让步;屈服
+16.     balance          n.    平衡;均匀vt.使平衡
+17.     keep balance         保持平衡
+18.     lead to                  导致
+19.     dam               n.    水坝;拦河坝
+20.     proposal        n.    提议;建议
+21.     make a proposal   提出建议
+22.     protest           n.    抗议vt.(公开)反对;抗议
+23.     likely             adj.  可能的adv.可能地
+24.     turn to                  向…求助
+25.     committee     n.    委员会
+26.     establish        vt.   建立;创立
+27.     limit               n.    限度;限制vt.限制;限定
+28.     prevent          vt.   阻止;阻碍;阻挠
+29.     prevent…from…  阻止;不准
+30.     loss                n.    丧失;损失
+31.     contribution  n.    捐款;贡献;捐赠
+32.     contribute     vi.＆vt.捐献;捐助
+33.     department   n.    部;司;科
+34.     fund              n.    基金;专款
+35.     within           prep&adv 在(某段时间、距离或范围)之内
+36.     investigate     vi.＆vt.调查;研究
+37.     issue              n.    重要议题;争论的问题vt.宣布;公布
+38.     conduct         n.    行为;举止;管理方法vt.组织;安排;带领
+39.     document      n.    文件;公文;(计算机)文档vt.记录;记载(详情)
+40.     donate           vt.   (尤指向慈善机构)捐贈;赠送;献(血)
+41.     donate…to...        向…捐赠
+42.     disappear      vi.   消失;灭绝;消亡
+43.     attempt         vt.   企图;试图;尝试
+44.     make sure             确保;设法保证
+45.     worthwhile    adj   值得做的;值得花时间的
+46.     download      vt.   下载n.下载;已下载的数据资料
+47.     republic         n.    共和国
+48.     professional   adj.  专业的;职业的n.专业人员;职业选手
+49.     archaeologist   n.    考古学家
+50.     entrance        n.    入口;进入
+51.     pyramid         n.    (古埃及的)金字塔;棱锥体
+52.     process          n.    过程;进程;步骤 vt.处理;加工
+53.     overseas         adj   海外的 adv.在海外
+54.     exit                n.    出口;通道vi.＆vt.出去;离去
+55.     sheet              n.    一张(纸);床单;被单
+56.     parade            n.    游行;检阅vi.游行庆祝;游行示威
+57.     mirror           n.    镜子
+58.     roof               n.    顶部;屋顶
+59.     chiwen           n.    鸱吻
+60.     dragon          n.    龙
+61.     forgive           vt.＆vi.( forgave， forgiven)原谅;宽恕vt.对不起;请原谅
+62.     digital           adj.  数码的;数字显示的
+63.     image            n.    形象;印象
+64.     cave               n.    山洞;洞穴
+65.     throughout    prep.各处;遍及;自始至终
+66.     quality          n.    质量;品质;素质;特征adj:优质的;高质量的
+67.     all over the world  在世界各地
+68.     tradition        n.    传统;传统的信仰或风俗
+69.     further          adj.  (far的比較级)更远;进一步
+70.     historic          adj.  历史上著名(或重要)的;有史时期的
+71.     opinion          n.    意见;想法;看法
+72.     quote             vt.   引用
+73.     paraphrase      n.＆vt     (用更容易理解的文字)解释
+74.     comparison    n.    比较;相比
+75.     contrast         n.    对比;对照vt.对比;对照
+76.     identify         vt.   确认;认出;找到
+77.     forever          adv. 永远;长久地
+78.     Aswan Dam           阿斯旺大坝
+79.     the Nile                 尼罗河
+80.     Egypt                    埃及(国家名
+81.     Egyptian        adj.  埃及的
+82.     UNESCO      abbr. United Nations Educational Scientific and Cultural Organization 联合国教科文组织
+83.     Cairo                    开罗(埃及首都)
+84.     Tanzania                坦桑尼亚(国家名)
+85.     the Kremlin/          克里姆林(宫)
+86.     Moscow                莫斯科(俄罗斯首都
+87.     Saint Basil’s Cathedral   圣瓦希里大教堂
+88.     the Forbidden City  紫禁城
+89.     Los Angeles           洛彬矶(美国城市)

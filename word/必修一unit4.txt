@@ -1,0 +1,63 @@
+1.	disaster 		/d??zɑ:st?(r)/ 	n.	灾难；灾害
+2.	tornado 		/t?:?ne?d?? / 	n.	(pl. -oes or -os) 龙卷风；旋风
+3.	drought 		/ dra?t / 		n.	旱灾；久旱
+4.	landslide 	/ ?l?ndsla?d / 	n. 	( landfall) (山地或悬崖的)崩塌；滑坡
+5.	slide 		/ sla?d / 		vi. & vt. (使)滑行；滑动
+6.	tsunami 		/ tsu:?nɑ:mi / 	n. 	海啸
+7.	flood 		/fl?d / 		n. 	洪水；大量   vi.淹没；大量涌入  vt.使灌满水；淹没
+8.	volcanic eruption / v?l?k?n?k  ??r?p?n / 	火山喷发
+9.	magnitude 	/?m?gn?tju:d / n.	 (地)震级；重大
+10.	rescue 		/?reskju:/ 		n.& vt.营救；救援
+11.	damage 		/?d?m?d? / 	vt.	损害；破坏  n.损坏；损失
+12.	destroy 		/d?'str??/ 		vt. 	摧毁 ；毁灭
+13.	evacuate 		/??v?kjue?t / 	vt.	疏散；撤出 vi.撤离
+14.	helicopter 	/?hel?k?pt?(r)/	n. 	直升机
+15.	death		/ deθ/ 		n. 	死；死亡
+16.	affect 		/?'fekt/ 		vt. 	影响；(疾病)侵袭；深深打动
+17.	shelter 		/'?elt?(r)/ 		n.	避难处；居所；庇护    vt.保护；掩蔽    vi. 躲避 (风、雨或危险)
+18.	crack 		/kr?k/ 		n.	裂纹；裂缝 vi. & vt. (使)破裂
+19.	as if 						似乎；好像；仿佛
+20.	ruin 		/'ru:?n/ 		n.&vt. 破坏；毁坏
+21.	in ruins 						严重受损；破败不堪
+22.	percent 		/ p??sent / 	n. 	百分之…… adj.&adv.每一百种 
+23.	brick 		/br?k/ 		n. 	砖；砖块
+24.	metal 		/'metl/ 		n.	金属
+25.	shock 		/??k/ 		n.	震惊；令人震惊的事；休克  vt.(使)震惊
+26.	in shock 						震惊；吃惊
+27.	electricity 	/??lek?tr?s?ti/ 	n.	电；电能
+28.	trap 		/tr?p/ 		vt.	使落入险境；使陷入圈套    n. 险境；陷阱
+29.	bury 		/?beri/ 		vt. 	埋葬；安葬
+30.	breathe 		/ bri:e/ 		vi.& vt.呼吸
+31.	revive 		/r??va?v/ 		vt.& vi.复活；(使)苏醒    
+32.	revival 		/r??va?vl/ 		n.	振兴；复苏
+33.	effort 		/'ef?t/ 		n.	努力；艰难的尝试；尽力
+34.	unify 		/?ju:n?fa? / 	vi.& vt. 统一；(使)成一体
+35.	wisdom 		/?w?zd?m/ 	n.	智慧；才智
+36.	context 		/?k?ntekst/ 	n.	上下文；语境；背景
+37.	suffer 		/?s?f?/ 		vt.	遭受；蒙受 vi. (因疾病、痛苦、悲伤等)受苦
+38.	volcano 		/v?l?ke?n??/ 	n. 	(pl. -oes or -os)火山
+39.	erupt 		/??r?pt/ 		vi.& vt. (火山)爆发；(岩浆、烟等)喷出
+40.	supply 		/s??pla?/ 		n.	供应(量)；补给；[pl.] 补给品  vt. 供应；供给
+41.	typhoon 		/ta??fu:n/ 		n.	台风
+42.	in the open air 				露天；在户外
+43.	hurricane 	/?h?r?k?n/ 	n . 	(尤指大西洋的)飓风
+44.	survive 		/s??va?v/ 		vi.	生存；存活 vt. 幸存；艰难度过
+45.	power 		/?pa??(r)/ 	n.	电力供应；力量；控制力
+46.	tap 			/t?p/ 		vi.& vt. 轻叩；轻敲；轻拍  n.水龙头；轻叩；轻敲
+47.	pipe 		/pa?p/ 		n.	管子；管道
+48.	whistle 		/?w?sl/ 		vi.	吹口哨；发出笛声      vt. 吹口哨      n. 哨子(声)；呼啸声
+49.	emergency 	/i?m?:d??nsi/ 	n.	突发事件；紧急情况
+50.	calm 		/kɑ:m/ 		adj.	镇静的；沉着的  vt.使平静；使镇静
+51.	aid 			/e?d/ 		n.	援助；帮助；救援物资 vi.& vt. (formal) 帮助；援助
+52.	kit 			/k?t/ 			n.	成套工具；成套设备
+53.	first aid kit 					急救箱
+54.	on hand						现有(尤指帮助)
+55.	crash 		/kr??/ 		vt.& vi.碰撞；撞击 n.撞车；碰撞
+56.	sweep 		/swi:p/ 		vt. & vi. ( swept, swept) 打扫；清扫
+57.	sweep away					消灭；彻底消除
+58.	wave 		/we?v/ 		n.	海浪；波浪 vi.& vt.挥手；招手
+59.	strike 		/stra?k/ 		vi.& vt. (struck, struck/stricken) 侵袭；突击；击打  n. 罢工；罢课；袭击
+60.	deliver 		/d??l?v?(r)/ 	vt. & vi.递送；传达 vt.发表
+61.	summary 	/?s?m?ri/ 		n.	总结；概括；概要
+62.	effect 		/??fekt/ 		n.	影响；结果；效果
+63.	length 		/le?θ/ 		n.	长；长度
