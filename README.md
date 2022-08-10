@@ -10,13 +10,12 @@
 
 必修一可能会由个别错误，必修二就不会了
 
-会上传必修一 二
+会上传必修一 二![2](D:\Software\PyCharm\pythonProject\test01\summer_2022\wordDictation\README.assets\2.png)
+
+![3](D:\Software\PyCharm\pythonProject\test01\summer_2022\wordDictation\README.assets\3.png)
+
+![1](D:\Software\PyCharm\pythonProject\test01\summer_2022\wordDictation\README.assets\1.png)
 
 
-![1660125822666](D:\Software\PyCharm\pythonProject\test01\summer_2022\wordDictation\img\1660125822666.png)
-
-![U}(%XU156UGVH22AP$)_RCF](D:\Software\PyCharm\pythonProject\test01\summer_2022\wordDictation\img\U}(%XU156UGVH22AP$)_RCF.png)
-
-![YTMQ}O@J5A9718_UIAS{1](D:\Software\PyCharm\pythonProject\test01\summer_2022\wordDictation\YTMQ}O@J5A9718_UIAS{1.png)
 
 错误可以复制到txt文档，以便下次继续复习，例见：必修一复习
