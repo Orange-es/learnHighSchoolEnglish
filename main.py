@@ -10,8 +10,6 @@ import sys
 # 把项目路径加入python搜索路径 可以在cmd运行
 sys.path.append('D:\Software\PyCharm\pythonProject\\test01')
 
-
-
 from summer_2022.wordDictation.tool import getWrong_Input_outOrder, getWrong_Input_countBack, sendMail, reMes, \
     getReviseList, reWrong_Input, getNewBookL
 
