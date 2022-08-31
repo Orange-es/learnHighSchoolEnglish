@@ -16,7 +16,7 @@ from summer_2022.wordDictation.tool import getWrong_Input_outOrder, getWrong_Inp
 
 def run():
     # 0关闭，1开启
-    choose = eval(input('请选择是否开启看英语选汉语模式。'))
+    choose = eval(input('请选择是否开启看英语选汉语模式。0：关闭，1：开启'))
     revise = eval(input('是否开启复习模式或CET4，0：关闭，1：开启\n'))#复习模式
     if revise ==0:#如果不开启复习模式，则判断是否需要选择必修二的课本 如果为0则自动进入必修一的课本
         theSencondBook = eval(input('是否是必修二及以上课本：0：不是，1：是的\n'))
@@ -50,7 +50,7 @@ def run():
             list = getWrong_Input_countBack(filePath)#倒序
         else:
             list = getWrong_Input_outOrder(0,filePath)#正序
-    elif revise ==1 & choose==0:
+    elif revise ==1 and choose==0:
         print('==========已进入复习模式=====================')
         # 返回的list包含 0：英语和1：汉语的列表
         # 参数1：是否无序 参数2：文件路径
