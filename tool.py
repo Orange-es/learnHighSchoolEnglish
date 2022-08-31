@@ -10,6 +10,60 @@ import random
 import smtplib
 from email.mime.text import MIMEText
 
+#看英语找汉语
+def enFindch(list):
+    #错误集合：
+    wrongList = []
+    #传入正确的英语汉语集合
+    enList = list[0]
+    chList = list[1]
+    if len(enList) == len(chList):
+        print('本次测试共有：', len(enList), '个单词，每个单词最多错误三次\n下面开始测试：')
+    else:
+        print('英语和汉语不对。关闭系统')
+        input('按回车键，关闭')
+        exit(0)
+    for i in range(len(enList)):
+        #随机生成5个(1, 10)范围内不重复的数字：
+        l1 = random.sample(range(1, len(enList)), 4)
+        #以防随机生成的数就是正确答案
+        #如果随机成功就是正确答案，那重新随机生成
+        #先不写这个 暂定不会这么巧合把  - -’
+
+        l1.append(i)
+        #这时，li集合里面添加了所有的汉语选项
+
+        # python避免随机元素重复可以使用random模块的sample()函数，
+        # 它返回一个新列表，新列表存放随机不重复的元素。
+        #因为最后一个添加的是正确答案，所以要打乱顺序
+        l1 = random.sample(l1, len(l1))
+        # ===========================================
+
+        print('\n====================================')
+        print('第', i + 1, '/', len(enList), '个')
+        # print(enList[i])
+        # print(chList[i])
+        print('英语：', enList[i])
+        print('请选择：')
+        num = 0
+        l = []
+        for ch in l1:
+            num = num +1
+            print(num,':',chList[ch])
+            l.append(chList[ch])
+        try :
+            n = eval(input('输入正确选项的编号：'))
+        except :
+            n='-1'
+        if n=='-1'or  l[n-1] != chList[i]:
+            wrongWord = '英语：' + enList[i] + '-汉语：' + chList[i]
+            print('\n选择错误，正确答案为：',wrongWord)
+            wrongList.append(wrongWord)
+    print('\n一共错了', len(wrongList), '个。\n可能会有误差，最终请看邮箱。\n')
+    print('错误列表：', wrongList)
+    return wrongList
+
+
 
 #遍历文件夹所有文件
 def findEveryFile(filePath):
@@ -149,8 +203,8 @@ def getReviseList(out_of_order,filePath):
     enList = []
     chList = []
     for i in range(len(data)):
-        en = data[i].split('-')[0]
-        ch = data[i].split('-')[1]
+        en = data[i].split('-',1)[0]
+        ch = data[i].split('-',1)[1]
         enList.append(en)
         chList.append(ch)
     #print('英语：',enList)
@@ -166,10 +220,15 @@ def getReviseList(out_of_order,filePath):
 
 #获取错题&输入 列表 返回需要发送邮件的信息
 def reMes(fileName,list):
-    wrongList = list[0]
-    inputList = list[1]
+    if len(list) ==2:
+        wrongList = list[0]
+        inputList = list[1]
+    else:#lish不等于2 那就是等于1 证明是看英语选择汉语模式 只有错误的
+        wrongList = list
+        inputList = []
+        inputList.append('看英语选汉语，不再需要输入')
     p = '<h5>' + fileName + '错题本</h5>'
-    if len(inputList) ==0:
+    if len(wrongList) ==0:
         #等于0 证明没有错的
         print('没有错的')
         inputList.append('没有错误的 厉害了')

@@ -11,12 +11,12 @@ import sys
 sys.path.append('D:\Software\PyCharm\pythonProject\\test01')
 
 from summer_2022.wordDictation.tool import getWrong_Input_outOrder, getWrong_Input_countBack, sendMail, reMes, \
-    getReviseList, reWrong_Input, getNewBookL, findEveryFile
+    getReviseList, reWrong_Input, getNewBookL, findEveryFile, enFindch
 
 
 def run():
     # 0关闭，1开启
-
+    choose = eval(input('请选择是否开启看英语选汉语模式。'))
     revise = eval(input('是否开启复习模式或CET4，0：关闭，1：开启\n'))#复习模式
     if revise ==0:#如果不开启复习模式，则判断是否需要选择必修二的课本 如果为0则自动进入必修一的课本
         theSencondBook = eval(input('是否是必修二及以上课本：0：不是，1：是的\n'))
@@ -38,7 +38,7 @@ def run():
     l = findEveryFile('word')
     num = eval(input('输入要打开文件的编号。'))
     #filePath = input("请输入文件路径：")
-    filePath = l[num]
+    filePath = l[num-1]
     #fileName = filePath.split('\\')[-1]  # 根据路径获取当前文件名字
     fileName = filePath.split('\\')[-2]+'/'+filePath.split('\\')[-1]  # 根据路径获取当前文件名字及其文件夹的名字
     print(fileName)
@@ -50,17 +50,21 @@ def run():
             list = getWrong_Input_countBack(filePath)#倒序
         else:
             list = getWrong_Input_outOrder(0,filePath)#正序
-    elif revise ==1:
+    elif revise ==1 & choose==0:
         print('==========已进入复习模式=====================')
         # 返回的list包含 0：英语和1：汉语的列表
         # 参数1：是否无序 参数2：文件路径
-        reviseList = getReviseList(1,filePath)
+        reviseList = getReviseList(0,filePath)
         list = reWrong_Input(reviseList)
     elif theSencondBook ==1:
         print('==========已进入必修二及以上课本=====================')
         list = getNewBookL(out_of_order,filePath)
         list = reWrong_Input(list)
-
+    elif choose ==1:
+        print('===========开始看英语选汉语========================')
+        reviseList = getReviseList(0, filePath)
+        list = enFindch(reviseList)
+        fileName = fileName+'-看英语选汉语模式'
     #给错题&输入的列表 返回做好格式的信息
     p = reMes(fileName,list)
     #根据信息发邮件
