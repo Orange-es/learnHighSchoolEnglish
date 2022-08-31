@@ -11,13 +11,13 @@ import sys
 sys.path.append('D:\Software\PyCharm\pythonProject\\test01')
 
 from summer_2022.wordDictation.tool import getWrong_Input_outOrder, getWrong_Input_countBack, sendMail, reMes, \
-    getReviseList, reWrong_Input, getNewBookL
+    getReviseList, reWrong_Input, getNewBookL, findEveryFile
 
 
 def run():
     # 0关闭，1开启
 
-    revise = eval(input('是否开启复习模式，0：关闭，1：开启\n'))#复习模式
+    revise = eval(input('是否开启复习模式或CET4，0：关闭，1：开启\n'))#复习模式
     if revise ==0:#如果不开启复习模式，则判断是否需要选择必修二的课本 如果为0则自动进入必修一的课本
         theSencondBook = eval(input('是否是必修二及以上课本：0：不是，1：是的\n'))
     else:#如果开启复习模式 那么就不要再看是否需要theSencondBook必修二了
@@ -31,9 +31,17 @@ def run():
     elif out_of_order ==1:
         countBack =0
     if revise ==1:
-        print('准备进去复习模式...')
-    filePath = input("请输入文件路径：")
-    fileName = filePath.split('\\')[-1]  # 根据路径获取当前文件名字
+        print('准备进去复习模式或CET4...')
+    #读取所有文件的路径，只需要输入编号，不需要再打路径
+    l =[]
+    #给函数传入参数 -单词文件夹路径 遍历文件夹下所有的文件
+    l = findEveryFile('word')
+    num = eval(input('输入要打开文件的编号。'))
+    #filePath = input("请输入文件路径：")
+    filePath = l[num]
+    #fileName = filePath.split('\\')[-1]  # 根据路径获取当前文件名字
+    fileName = filePath.split('\\')[-2]+'/'+filePath.split('\\')[-1]  # 根据路径获取当前文件名字及其文件夹的名字
+    print(fileName)
     if revise ==0 and theSencondBook ==0:
         # 返回的列表里面包含 0：错误的 1：输入的
         if out_of_order == 1 :

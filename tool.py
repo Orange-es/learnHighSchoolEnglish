@@ -5,9 +5,24 @@
 # @File    : tool.py
 # @Software: PyCharm 
 # @Comment :
+import os
 import random
 import smtplib
 from email.mime.text import MIMEText
+
+
+#遍历文件夹所有文件
+def findEveryFile(filePath):
+    i=0
+    l = []
+    for filepath, dirnames, filenames in os.walk(filePath):
+        for filename in filenames:
+            # print(filename)
+            # print(filepath)
+            i=i+1
+            print(i,':',os.path.join(filepath, filename))
+            l.append(os.path.join(filepath, filename))
+    return l
 
 #用于必修二及以上的解析
 def getNewBookL(out_of_order, filePath):
@@ -241,7 +256,7 @@ def sendMail(title,text):
     # 邮件发送方邮箱地址
     sender = '3523531883@qq.com'
     # 邮件接受方邮箱地址，注意需要[]包裹，这意味着你可以写多个邮件地址群发
-    receivers = ['3523531883@qq.com','3077288566@qq.com']
+    receivers = ['786788651@qq.com']
 
     # 设置email信息
     # 邮件内容设置
